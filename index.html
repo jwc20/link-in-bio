@@ -1,92 +1,90 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8" />
-  <title>Jae Won Choi - Links</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="./index.css" />
-  <!-- <link rel="preload" href="./images/bg01.jpg" as="image" /> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      VANTA.BIRDS({
-        el: "#vanta",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: true,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        backgroundAlpha: 0.0,
-        color2: 0xff00f0,
-        wingSpan: 40.00,
-        separation: 100.00,
-        alignment: 77.00,
-        cohesion: 5.00,
-        quantity: 1.00
-      })
-
-      setTimeout(() => {
-        const main = document.querySelector('main')
-        main.style.opacity = 1
-        main.style.filter = 'blur(0px)'
-      }, 1000)
-    })
-  </script>
-</head>
-
-<body>
-  <div id="vanta"></div>
-  <main class="animated">
-    <header>
-      <img src="./images/birds.jpg" />
-      <h1>Jae W. C.</h1>
-    </header>
-    <ul>
-      <!--         
-        <li>
-          <a href="https://www.craftz.dog/">
-            <img src="./images/homepage.svg" alt="Homepage" width="20" />
-            Official Website
-          </a>
-        </li>
-      -->
-      
-      <li>
-        <a href="https://github.com/jwc20">
-          <img src="./images/github.svg" alt="GitHub" width="20" />
-          GitHub
-        </a>
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCbHcvXhxdezJj2oXRwsB1ew/featured">
-          <img src="./images/youtube.svg" alt="YouTube" width="20" />
-          YouTube
-        </a>
-      </li>
-
-      <li>
-        <a href="https://www.instagram.com/20cjw22/">
-          <img src="./images/instagram.svg" alt="Twitter" width="20" />
-          Instagram
-        </a>
-      </li>
-
-
-
-      <li>
-        <a href="https://docs.google.com/spreadsheets/d/1R2pWOM25gjv879fW9j-ydYCE8sbDUhnnjkMBO2Zkl1o/edit?usp=sharing">
-          <img src="./images/sheets.ico" alt="Google Sheets" width="20" />
-          Weightlifting Results List
-        </a>
-      </li>
-
-    </ul>
-  </main>
-</body>
-
+   <head>
+      <meta charset="utf-8" />
+      <title>Jae Won Choi - Links</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="./index.css" />
+      <!-- <link rel="preload" href="./images/bg01.jpg" as="image" /> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+      <script>
+         window.addEventListener('DOMContentLoaded', () => {
+           VANTA.BIRDS({
+             el: "#vanta",
+             mouseControls: true,
+             touchControls: true,
+             gyroControls: true,
+             minHeight: 200.00,
+             minWidth: 200.00,
+             scale: 1.00,
+             scaleMobile: 1.00,
+             backgroundAlpha: 0.0,
+             color2: 0xff00f0,
+             wingSpan: 40.00,
+             separation: 100.00,
+             alignment: 77.00,
+             cohesion: 5.00,
+             quantity: 1.00
+           })
+         
+           setTimeout(() => {
+             const main = document.querySelector('main')
+             main.style.opacity = 1
+             main.style.filter = 'blur(0px)'
+           }, 1000)
+         })
+      </script>
+   </head>
+   <body>
+      <div id="vanta"></div>
+      <main class="animated">
+         <header>
+            <img src="./images/birds.jpg" />
+            <h1>Jae W. C.</h1>
+         </header>
+         <ul>
+            <!--         
+               <li>
+                 <a href="https://www.craftz.dog/">
+                   <img src="./images/homepage.svg" alt="Homepage" width="20" />
+                   Official Website
+                 </a>
+               </li>
+               -->
+            <li>
+               <a href="https://github.com/jwc20">
+               <img src="./images/github.svg" alt="GitHub" width="20" />
+               GitHub
+               </a>
+            </li>
+            <li>
+               <a href="https://www.youtube.com/channel/UCbHcvXhxdezJj2oXRwsB1ew/featured">
+               <img src="./images/youtube.svg" alt="YouTube" width="20" />
+               YouTube
+               </a>
+            </li>
+            <li>
+               <a href="https://www.instagram.com/20cjw22/">
+               <img src="./images/instagram.svg" alt="Twitter" width="20" />
+               Instagram
+               </a>
+            </li>
+            <li>
+               <a href="https://docs.google.com/spreadsheets/d/1R2pWOM25gjv879fW9j-ydYCE8sbDUhnnjkMBO2Zkl1o/edit?usp=sharing">
+               <img src="./images/sheets.ico" alt="Google Sheets" width="20" />
+               Weightlifting Results List
+               </a>
+            </li>
+         </ul>
+      </main>
+      <div style="position: absolute; bottom: 1px; right: 10px;">
+         <p style="color: #7970A9; font-size: 9px;">
+            App created by
+            <a style="color: #8AFF80;" href="https://www.craftz.dog/">
+            Takuya Matsuyama
+            </a>
+         </p>
+      </div>
+   </body>
 </html>
