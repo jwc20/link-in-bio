@@ -6,8 +6,8 @@ body, html {
 }
 
 body {
-  /* background: url(./images/bg01.jpg) no-repeat center center fixed; */
-  background-color: #22212C;
+  background: url(./images/maru_and_mi.jpg.jpg) no-repeat center center fixed;
+  /* background-color: #22212C; */
   background-size: cover;
 }
 
